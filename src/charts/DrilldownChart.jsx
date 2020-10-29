@@ -131,19 +131,6 @@ const chartConfigs = {
 };
 
 
-
-const alterChart = chart => {
-    chart.configureLink({
-        type: "pie2d",
-        overlayButton: {
-            message: "Back",
-            fontColor: "880000",
-            bgColor: "FFEEEE",
-            borderColor: "660000"
-        }
-    });
-};
-
 export default class DrilldownChart extends React.Component {
     render() {
         return <ReactFC {
